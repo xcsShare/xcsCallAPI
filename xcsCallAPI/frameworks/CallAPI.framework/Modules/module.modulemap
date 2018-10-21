@@ -1,0 +1,6 @@
+framework module CallAPI {
+  umbrella header "CallAPI.h"
+
+  export *
+  module * { export * }
+}

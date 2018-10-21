@@ -1,0 +1,6 @@
+framework module xcsCallAPI {
+  umbrella header "xcsCallAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

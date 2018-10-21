@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'xcsCallAPI_Example' do
+  pod 'xcsCallAPI', :path => '../'
+
+  target 'xcsCallAPI_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  end
+end

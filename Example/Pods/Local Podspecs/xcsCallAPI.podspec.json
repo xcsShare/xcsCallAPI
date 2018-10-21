@@ -1,0 +1,22 @@
+{
+  "name": "xcsCallAPI",
+  "version": "0.1.0",
+  "summary": "A short description of xcsCallAPI.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/CypressLabs/xcsCallAPI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "CypressLabs": "Kevin.Chang@trans-iot.com"
+  },
+  "source": {
+    "git": "https://github.com/CypressLabs/xcsCallAPI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "xcsCallAPI/Classes/**/*"
+}
