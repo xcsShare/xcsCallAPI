@@ -19,6 +19,7 @@
 + (NSOperationQueue*)singletonOpQueue;
 - (id)initWithArgs:(NSDictionary*)args tag:(NSUInteger)tagId trustHosts:(NSArray*)trusts completion:(AnGooGeneralCallbackBlock)block;
 - (NSURLRequest*)genURLRequestWithUrlString:(NSString*)urlString args:(NSDictionary*)args;
+- (NSMutableURLRequest*)genMutableURLRequestWithUrlString:(NSString*)urlString args:(NSDictionary*)args;
 - (void) excuteURLRequest:(NSURLRequest*)urlRequest;
 - (void) excuteURLRequest:(NSURLRequest*)urlRequest timeoutInSeconds:(NSTimeInterval)interval;
 

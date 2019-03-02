@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'xcsCallAPI'
-  s.version          = '1.0.0.13'
+  s.version          = '1.0.0.14'
   s.summary          = 'A short description of xcsCallAPI.'
 
 # This description is used to generate tags and improve search results.
