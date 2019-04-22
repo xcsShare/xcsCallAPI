@@ -15,6 +15,7 @@
 @property (nonatomic,strong,readonly) NSError *ResultError;
 @property (nonatomic,strong,readonly) id ResultDatas;
 @property (nonatomic,readonly) BOOL bDone;
+@property (nonatomic,readonly) NSHTTPURLResponse *Response;
 
 + (NSOperationQueue*)singletonOpQueue;
 - (id)initWithArgs:(NSDictionary*)args tag:(NSUInteger)tagId trustHosts:(NSArray*)trusts completion:(AnGooGeneralCallbackBlock)block;
